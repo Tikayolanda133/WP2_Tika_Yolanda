@@ -47,7 +47,7 @@ class Datasiswa extends CI_Controller
         ]);
 
         if ($this->form_validation->run() != true) {
-            $this->load->view('view-form-datasiswa');
+            $this->load->view('view-data-datasiswa');
         } else {
 
             $data = [
